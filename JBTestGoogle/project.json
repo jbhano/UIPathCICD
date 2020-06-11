@@ -1,0 +1,90 @@
+{
+  "name": "JBTestGoogle",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.Testing.Activities": "[1.0.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.1.0",
+  "projectVersion": "1.0.45561617",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a3cdc021-7368-4091-accd-76dac1a8c174",
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "8c5bde1a-f00c-4289-b451-76ed6b8cdcca",
+        "fileName": "TestCases\\VerifyAbleToTypeSearchItemInGoogle.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "970d7545-16ce-4339-a8f8-f8d1dc5d91ac",
+        "fileName": "TestCases\\VerifyFailure.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "036c518b-51af-4821-aed7-2a4cbea2307f",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "fileName": "TestCases\\DataDrivenTestCase.xaml"
+      }
+    ]
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "TestCases\\VerifyAbleToTypeSearchItemInGoogle.xaml",
+      "uniqueId": "8c5bde1a-f00c-4289-b451-76ed6b8cdcca",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCases\\VerifyFailure.xaml",
+      "uniqueId": "970d7545-16ce-4339-a8f8-f8d1dc5d91ac",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "TestCases\\DataDrivenTestCase.xaml",
+      "uniqueId": "036c518b-51af-4821-aed7-2a4cbea2307f",
+      "input": [
+        {
+          "name": "TestSearchItem",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        },
+        {
+          "name": "ExpectedValue",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": true
+        }
+      ],
+      "output": []
+    }
+  ]
+}
