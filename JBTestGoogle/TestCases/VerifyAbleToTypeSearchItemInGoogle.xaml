@@ -64,7 +64,7 @@
           <OutArgument x:TypeArguments="x:String">[TestSearchItem]</OutArgument>
         </Assign.To>
         <Assign.Value>
-          <InArgument x:TypeArguments="x:String">Test1</InArgument>
+          <InArgument x:TypeArguments="x:String">Test</InArgument>
         </Assign.Value>
       </Assign>
     </Sequence>
